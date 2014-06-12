@@ -1,3 +1,7 @@
+* Thu Jun 12 2024 Pasi Sjöholm <pasi.sjoholm@jollamobile.com> - 1.5.18
+- Update to 1.5.18
+- Fixes CVE-2013-7354, CVE-2013-7353
+
 * Mon Jul 30 2012 Amir Hassan <amir@viel-zu.org> - 1.5.12
 - Fixes MER#465 - update libpng to 1.5.12
 
