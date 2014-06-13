@@ -1,4 +1,7 @@
-* Thu Jun 12 2024 Pasi Sjöholm <pasi.sjoholm@jollamobile.com> - 1.5.18
+* Fri Jun 13 2014 Pasi Sjöholm <pasi.sjoholm@jollamobile.com> - 1.5.18
+- Remove devel subpackage 
+
+* Thu Jun 12 2014 Pasi Sjöholm <pasi.sjoholm@jollamobile.com> - 1.5.18
 - Update to 1.5.18
 - Change name to libpng15-compat
 - Fixes CVE-2013-7354, CVE-2013-7353

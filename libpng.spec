@@ -6,6 +6,7 @@
 Name:       libpng15-compat
 
 # >> macros
+%define _unpackaged_files_terminate_build 0
 # << macros
 
 Summary:    A library of functions for manipulating PNG image format files
@@ -31,20 +32,6 @@ compression algorithm.
 
 Libpng15-compat should be installed if you need to manipulate PNG format image
 files.
-
-
-%package devel
-Summary:    Development tools for programs to manipulate PNG image format files
-Group:      Development/Libraries
-Requires:   %{name} = %{version}-%{release}
-Requires:   libpng15-compat = %{version}-%{release}
-Requires:   zlib-devel
-
-%description devel
-The libpng15-compat-devel package contains header files and documentation necessary
-for developing programs using the PNG (Portable Network Graphics) library.
-
-
 
 %prep
 %setup -q -n libpng-%{version}
@@ -90,15 +77,3 @@ rm -rf %{buildroot}
 %doc LICENSE
 %{_libdir}/libpng*.so.*
 # << files
-
-%files devel
-%defattr(-,root,root,-)
-# >> files devel
-%doc %{_mandir}/man5/*
-%doc *.txt example.c README TODO CHANGES
-%{_bindir}/*
-%{_includedir}/*
-%{_libdir}/libpng*.so
-%{_libdir}/pkgconfig/*
-%doc %{_mandir}/man3/*
-# << files devel
