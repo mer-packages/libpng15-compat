@@ -1,3 +1,8 @@
+* Mon Dec 29 2014 Pasi Sjöholm <pasi.sjoholm@jollamobile.com> - 1.5.21
+- Upgrade to 1.5.21
+- Fixes out-of-bounds memory access in png_user_version_check()
+- Fixes overflow in png_combine_row with very wide interlaced images
+
 * Fri Jun 13 2014 Pasi Sjöholm <pasi.sjoholm@jollamobile.com> - 1.5.18
 - Remove devel subpackage 
 
