@@ -16,7 +16,7 @@ Group:      System/Libraries
 License:    zlib
 URL:        http://www.libpng.org/pub/png/libpng.html
 Source0:    ftp://ftp.simplesystems.org/pub/png/src/libpng-%{version}.tar.xz
-Source100:  libpng.yaml
+Source100:  libpng15-compat.yaml
 Patch0:     libpng-multilib.patch
 Patch1:     libpng-%{version}-apng.patch.gz
 Requires(post): /sbin/ldconfig
