@@ -1,4 +1,7 @@
 * Tue Apr 28 2015 Pasi Sjöholm <pasi.sjoholm@jollamobile.com> - 1.5.21
+- Remove libpng.spec/yaml. MER#936
+
+* Tue Apr 28 2015 Pasi Sjöholm <pasi.sjoholm@jollamobile.com> - 1.5.21
 - Fix spec and changelog. MER#936
 
 * Mon Dec 29 2014 Pasi Sjöholm <pasi.sjoholm@jollamobile.com> - 1.5.21
