@@ -1,3 +1,6 @@
+* Sun Nov 15 2015 Pasi Sjöholm <pasi.sjoholm@jollamobile.com> - 1.5.24-1
+- Upgrade to 1.5.24 (CVE-2015-7981). Contributes to MER#1425.
+
 * Sun May 31 2015 Pasi Sjöholm <pasi.sjoholm@jollamobile.com> - 1.5.21
 - Remove old changelog entries before libpng15-compat change. MER#936
 
